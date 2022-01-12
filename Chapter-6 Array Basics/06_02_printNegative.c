@@ -16,6 +16,9 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+
+// printing only the negative value
+
     printf("All the negative numbers are: ");
     for (i = 0; i < size; i++)
     {

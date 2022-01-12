@@ -17,9 +17,11 @@ int main()
         scanf("%d", &arr[i]);
     }
 
+// value of sum will be added after every iteration
     for (i = 0; i < n; i++)
     {
         sum += arr[i];
+        // same as sum = sum + arr[i]
     }
     printf("Sum of the elements in the araay is: %d", sum);
 
